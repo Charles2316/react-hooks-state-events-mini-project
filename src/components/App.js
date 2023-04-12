@@ -13,9 +13,11 @@ function App() {
       <h2>My tasks</h2>
       <CategoryFilter />
       <NewTaskForm />
-      <TaskList />
+      <TaskList gooblygoop = {TASKS}  />
+      {/* <DummyComponent name="Tooba" a={5} b={2} /> */}
     </div>
   );
 }
 
 export default App;
+
